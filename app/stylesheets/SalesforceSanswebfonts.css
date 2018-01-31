@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'SalesforceSansRegular';
+  src: url('./SalesforceSanswebfonts/SalesforceSans-Regular.eot'); /* IE9 Compat Modes */
+  src: url('./SalesforceSanswebfonts/SalesforceSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./SalesforceSanswebfonts/SalesforceSans-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./SalesforceSanswebfonts/SalesforceSans-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       /*url('webfont.ttf')  format('truetype'),  Safari, Android, iOS */
+       url('./SalesforceSanswebfonts/SalesforceSans-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body {
+  font-family: 'SalesforceSansRegular', Arial, sans-serif;
+}
+
+
+#buttonSlider {
+  background-color: #00A1E0;
+}
+
+.panel-footer {
+  background-color:#16325C;
+}
+
+#btn-chat { 
+  background-color: #7C868D;
+  border:0px solid transparent;
+}
+
+#chatBox {
+  background-color: #DEE2E6;
+}

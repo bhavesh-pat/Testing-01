@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function parloWebMessengerChatScreen() {
+            var strWindowFeatures = "location=yes,height=520,width=450,scrollbars=yes,status=yes";
+
+            var URL = 'http://localhost:8080/?customerId=parlotestnc&nativeChannelId=parlotestnc-TravelAgencyBlock&command=Welcome~~~TravelAgencyBlock~~~0&backgroundColor=434e8a&buttonText=Chat with us&buttonColor=3498db&textMessage=To Chat with the Parlo Bot, please fill the following information&logo=https://d54za3sdpelx8.cloudfront.net/images/parlo_Logo-sm.png';
+            var win = window.open(URL, "_blank", strWindowFeatures);
+            return false;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <a href="#" onclick="parloWebMessengerChatScreen();"> Click Here </a>
+    </div>
+</body>
+
+</html>
